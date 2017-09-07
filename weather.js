@@ -189,31 +189,31 @@
   function weatherPicture() {
       switch (true) {
           case /\bclear\b/i.test(currentWeather):                     // match uses regular expression.
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/clear.jpg';
+              backgroundPicture = 'https://imgur.com/3YtN69v';
               break;
           case /\bovercast\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/overcast.jpg';
+              backgroundPicture = 'https://imgur.com/k8SztOz';
               break;
           case /\bclouds\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/mostly_cloudy.jpg';
+              backgroundPicture = 'https://imgur.com/JXD3gxp';
               break;
           case /\brain\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/rainy.jpg';
+              backgroundPicture = 'https://imgur.com/Jv0IeKP';
               break;
           case /\bdrizzle\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/rainy.jpg';
+              backgroundPicture = 'https://imgur.com/ul4LkBw';
               break;
           case /\bthunderstorm\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/thunderstorm.jpg';
+              backgroundPicture = 'https://imgur.com/zaPV6jS';
               break;
           case /\bsnow\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/snow.jpg';
+              backgroundPicture = 'https://imgur.com/gnRLac1';
               break;
           case /\bmist\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/mist.jpg';
+              backgroundPicture = 'https://imgur.com/40sYyxG';
               break;
           case /\bfog\b/i.test(currentWeather):
-              backgroundPicture = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/368633/mist.jpg';
+              backgroundPicture = 'https://imgur.com/0J9p3QZ';
               break;
       }
   }
