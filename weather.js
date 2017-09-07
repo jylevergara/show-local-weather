@@ -189,31 +189,31 @@
   function weatherPicture() {
       switch (true) {
           case /\bclear\b/i.test(currentWeather):                     // match uses regular expression.
-              backgroundPicture = 'https://imgur.com/3YtN69v';
+              backgroundPicture = 'https://i.imgur.com/3YtN69v.jpg';
               break;
           case /\bovercast\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/k8SztOz';
+              backgroundPicture = 'https://i.imgur.com/k8SztOz.jpg';
               break;
           case /\bclouds\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/JXD3gxp';
+              backgroundPicture = 'https://i.imgur.com/JXD3gxp.jpg';
               break;
           case /\brain\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/Jv0IeKP';
+              backgroundPicture = 'https://i.imgur.com/Jv0IeKP.jpg';
               break;
           case /\bdrizzle\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/ul4LkBw';
+              backgroundPicture = 'https://i.imgur.com/ul4LkBw.jpg;
               break;
           case /\bthunderstorm\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/zaPV6jS';
+              backgroundPicture = 'https://i.imgur.com/zaPV6jS.jpg';
               break;
           case /\bsnow\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/gnRLac1';
+              backgroundPicture = 'https://i.imgur.com/aZQiqHz.jpg';
               break;
           case /\bmist\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/40sYyxG';
+              backgroundPicture = 'https://i.imgur.com/IQUDEJG.jpg';
               break;
           case /\bfog\b/i.test(currentWeather):
-              backgroundPicture = 'https://imgur.com/0J9p3QZ';
+              backgroundPicture = 'https://i.imgur.com/ZcdbmYH.jpg';
               break;
       }
   }
