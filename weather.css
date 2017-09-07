@@ -39,6 +39,10 @@ body {
     font-size: 1.8em;
 }
 
+.pad-toggle {
+	margin-top: 10px;
+    padding-right: 25px; }
+    
 #location-wrapper h3 {
     margin: 0;
 }

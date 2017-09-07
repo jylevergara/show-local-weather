@@ -201,7 +201,7 @@
               backgroundPicture = 'https://i.imgur.com/Jv0IeKP.jpg';
               break;
           case /\bdrizzle\b/i.test(currentWeather):
-              backgroundPicture = 'https://i.imgur.com/ul4LkBw.jpg;
+              backgroundPicture = 'https://i.imgur.com/ul4LkBw.jpg';
               break;
           case /\bthunderstorm\b/i.test(currentWeather):
               backgroundPicture = 'https://i.imgur.com/zaPV6jS.jpg';
@@ -223,3 +223,14 @@
   };
   locationByIP();                                                     // main entry point for program execution.
 })();
+
+$(function() {
+    $('#unit-convert').change(function() {
+      if ($(this).prop('checked')){
+                $('#temperature').html(tempC + "° ");
+            } else {
+                $('#temperature').html(temp + "° ");
+            }
+
+    })
+  }) 
