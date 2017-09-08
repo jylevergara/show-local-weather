@@ -99,7 +99,7 @@ body {
     #location-wrapper {
         width: 177px;
         height: 71px;
-        margin: 30px 30px 20px 30px;
+        margin: auto;
     }
 
     #location-wrapper h1 {
