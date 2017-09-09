@@ -10,10 +10,10 @@
 
 <body>
   <div id="main-wrapper">
-    <div id="location-wrapper">
+    <!-- <div id="location-wrapper"> -->
       <h1 id="city"></h1>
       <h3 id="country"></h3>
-    </div>
+    <!-- </div> -->
     <div id="data-wrapper">
       <div>
         <span id="temperature"></span>
@@ -28,6 +28,9 @@
         <div id="humidity"></div>
         <div id="sunrise"></div>
         <div id="sunset"></div>
+        <div class="col-xs-12 text-right pad-toggle">
+            <input id="unit-convert" type="checkbox" data-toggle="toggle" data-off="F" data-on="C" data-size="mini">
+        </div>
       </div>
       <!-- end font-size-wrapper -->
     </div>
@@ -35,11 +38,9 @@
   </div>
   <!-- end main-wrapper -->
 
-  <div class="row">
-    <div class="col-xs-12 text-right pad-toggle">
-      <input id="unit-convert" type="checkbox" data-toggle="toggle" data-off="F" data-on="C" data-size="mini">
-    </div>
-  </div>
+  <!-- <div class="row"> -->
+    
+  <!-- </div> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
   <script src="localweather.js"></script>
