@@ -217,17 +217,25 @@
                 break;
         }
     }
+ // Toggle temp unit type on click
+ if (c.showFahrenheit === false) {
+    $('#temp').html(c.fahrenheit);
+    c.showFahrenheit = true;
+  } else {
+    $('#temp').html(c.celcius);
+    c.showFahrenheit = false;
+  }
 
     //   document.getElementById("unit").onclick = function () {             // add event listener to 'change units' button.
     //       toggleUnits();                                                  // on button click toggle units of measurement.
     //   };
-    $('#unit-convert').change(function () {
+    //$('#unit-convert').change(function () {
         toggleUnits();
         // if ($(this).prop('checked')) {
         //     $('#temperature').html(tempC + "° ");
         // } else {
         //     $('#temperature').html(temp + "° ");
         // }
-    });
+   // }); 
     locationByIP();                                                     // main entry point for program execution.
 })();
